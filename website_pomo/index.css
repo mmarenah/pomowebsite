@@ -1,0 +1,89 @@
+body {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+   
+}
+
+#authForm{
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: bold;
+    
+}
+
+#authForm h2 {
+    background: -webkit-linear-gradient(45deg, #f44336, #fc9803); 
+    background: linear-gradient(45deg, #f44336, #fc9803); 
+    -webkit-background-clip: text;  
+    -webkit-text-fill-color: transparent;
+    font-size: 4em; 
+  }
+ 
+  .button {
+    background: -webkit-linear-gradient(45deg, #f44336, #fc9803); 
+    background: linear-gradient(45deg, #f44336, #fc9803); 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    margin: 5px; 
+  }
+  
+  
+
+#centeredContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/* END: Change font to a different font */
+
+
+
+#tasks li input[type="checkbox"]:checked + span {
+    text-decoration: line-through;
+}
+/* BEGIN: Apply style to Pomodoro Timer */
+
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 70px;
+    position: relative;
+    top: 0;
+}
+
+h2 {
+    font-size: 50px; /* Updated font size */
+}
+
+
+
+.button {
+    font-size: 20px;
+    font-family: myFont, Helvetica;
+    padding: .5em 1em;
+    margin: 0.25em;
+    border-radius: 1em;
+    border: none;
+    outline: none;
+    width: 190px;
+    height: 50px;
+    position: relative;
+    top: 0;
+}
+
+.input-field {
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
